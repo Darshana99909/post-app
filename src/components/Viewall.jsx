@@ -21,10 +21,12 @@ const Viewall = () => {
   return (
     <div>
         <Navbar/>
+        <br></br>
         <div className="container row">
             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <div className="row g-3">
                     <div className="row">
+                      <div className="d-flex justify-content-center">
                         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                             <table class="table table-success table-bordered table-striped-columns table-hover">
@@ -66,6 +68,7 @@ const Viewall = () => {
             </div>
         </div>
     </div>
+     </div>
      </div>
                     
   )

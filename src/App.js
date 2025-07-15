@@ -5,12 +5,14 @@ import Addpost from './components/Addpost';
 import Searchpost from './components/Searchpost';
 import Deletepost from './components/Deletepost';
 import Viewall from './components/Viewall';
+import Home from './components/Home';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Addpost/>}/>
+      <Route path="/" element={<Home/>}/>
+      <Route path='/Add' element={<Addpost/>}/>
       <Route path="/Searchpost" element={<Searchpost/>}/>
       <Route path="/Deletepost" element={<Deletepost/>}/>
       <Route path="/Viewall" element={<Viewall/>}/>
